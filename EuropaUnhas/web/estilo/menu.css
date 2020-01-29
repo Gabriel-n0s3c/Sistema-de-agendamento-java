@@ -1,0 +1,334 @@
+/* 
+    Document   : menu
+    Created on : 20/02/2019, 21:35:12
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.meusCards1{
+    background-color: #580BB9;    
+}
+
+.meusCards2{
+    background-color: #e6005c;
+}
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link{
+    background-color: #e6005c;
+
+}
+.brabo:hover{
+    background-color: #F3F3F3;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    color:black;
+}
+.banner_part {
+    height: 890px;
+    position: relative;
+    background-image: url(../assets/images/banner_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 99%;
+    background-position: left top;
+    z-index: 2;
+}
+
+@media (max-width: 575px) {
+    .banner_part {
+        height: 650px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part {
+        height: 650px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part {
+        height: 700px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner_part {
+        height: 650px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .banner_part {
+        background-size: cover;
+    }
+}
+
+.banner_part:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    z-index: -1;
+    background: url(../assets/images/banner_bg.png) top right no-repeat;
+    right: 0;
+    background-size: 46%;
+}
+
+@media (max-width: 575px) {
+    .banner_part:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part:after {
+        display: none;
+    }
+}
+
+.banner_part .banner_text {
+    display: table;
+    width: 100%;
+    height: 900px;
+    padding-top: 40px;
+}
+
+.banner_part .banner_text .banner_text_iner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (max-width: 575px) {
+    .banner_part .banner_text {
+        text-align: center;
+        padding-top: 0px;
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part .banner_text {
+        text-align: center;
+        padding-top: 0px;
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part .banner_text {
+        text-align: center;
+        padding-top: 0px;
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner_part .banner_text {
+        height: 650px;
+    }
+}
+
+.banner_part .banner_text h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding-left: 12px;
+    letter-spacing: 1px;
+}
+
+.banner_part .banner_text h5:after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.3;
+    left: 157px;
+}
+
+@media (max-width: 575px) {
+    .banner_part .banner_text h5:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part .banner_text h5:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part .banner_text h5:after {
+        display: none;
+    }
+}
+
+.banner_part .banner_text h5:before {
+    position: absolute;
+    content: "";
+    top: -14px;
+    width: 90px;
+    height: 50px;
+    background-color: #fff;
+    opacity: 0.3;
+    left: 0px;
+}
+
+@media (max-width: 575px) {
+    .banner_part .banner_text h5:before {
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_part .banner_text h5:before {
+        left: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner_part .banner_text h5:before {
+        left: 40%;
+    }
+}
+
+.banner_part .banner_text p {
+    margin-bottom: 45px;
+    color: #fff;
+    line-height: 1.8;
+    opacity: 0.7;
+}
+
+.banner_part .banner_text h1 {
+    font-size: 50px;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    margin-bottom: 27px;
+    line-height: 1.273;
+    color: #fff;
+    margin-top: 34px;
+}
+
+a#rosa {
+    color: whitesmoke;
+}
+a#rosa:hover {
+    color: #e6005c;
+}
+button#rosa:hover {
+    color: white;
+    background-color: #e6005c;
+}
+button#rosa{
+    border-radius: 4px;
+}
+
+
+.service_part .single_service_part {
+    text-align: center;
+    padding: 15px 15px 0px;
+    border: 3px solid #e3e6ea;
+}
+
+button#botao{
+    background-color: black;
+    color: white;
+}
+button#botao:hover{
+    background-color: #ffb4b4;
+    color: black;
+}
+button#botao1:hover{
+    color: black;
+}
+button#botao2:hover{
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    text-decoration: #ffffff;
+
+}
+a#local{
+    color: black;
+}
+a#local:hover{
+    color: white;
+}
+
+img#sobrenos{
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid rgba(209, 208, 200,0.6);
+}
+
+a#link{
+    color: black;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ffb4b4;
+    color: #fff;
+}
+
+
+@media (min-width: 992px) { 
+    .dropdown-menu.notificacoes.show {
+        display: block;
+        left: -200px;
+        white-space: nowrap;
+        overflow-y: auto;
+    }
+    
+    .dropdown-menu.semnotifica.show {
+        display: block;
+        left: -100%;
+        white-space: nowrap;
+        overflow-y: auto;
+        max-height: 200px;
+    }
+}
+

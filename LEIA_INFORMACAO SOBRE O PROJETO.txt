@@ -1,0 +1,24 @@
+Novidades desta versão: 
+- Todos os cruds foram realizados;
+- Sistema de login adicionado;
+- Com o inicio do front-end : VISÃO DE GERENCIA (COM visão de usuário cliente); 
+
+OBS: 
+	ADMIN FAAAZ RELATORIO DESGRAÇAAAAA
+	CLIENTE ACESSA ESSA MAÇONARIAAA
+
+==========================================
+||		TRATAR ERROS		||
+==========================================
+ - Produto ficando negativo no estoque;
+ - Serviço negativando;
+ - Alguns formulários enviando dados sem estar preenchido;
+ - Ajustar vinculos de menus; 
+
+
+# A VISÃO DO CLIENTE FOI INICIADA!#
+# AJUSTES NAS TELAS DO CLIENTE FORAM FEITOS. FALTA CORRIGIR OS ERRORS E EDITAR O PDF#
+
+DATA DE RELEASE: 22/06/2019
+
+Versão:8.0
